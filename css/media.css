@@ -1,0 +1,613 @@
+@media (max-width: 1599px) {
+    .wedding-solution .overlay .text{
+        width: calc(100% - 30px);
+    }
+}
+@media (min-width: 992px) {
+    .deggie-mindy .inner-section:nth-child(odd) {
+        margin-bottom: 78px;
+    }
+
+    .deggie-mindy .inner-section:nth-child(odd) .ctn-box {
+        padding-left: 35px;
+    }
+
+    .deggie-mindy .inner-section:nth-child(even) .row {
+        flex-direction: row-reverse;
+    }
+
+    .deggie-mindy .inner-section:nth-child(even) .ctn-box {
+        padding-right: 35px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .home-testimonial .swiper-button-next {
+        right: -30px;
+    }
+
+    .home-testimonial .swiper-button-prev {
+        left: -30px;
+    }
+}
+@media (min-width: 1200px) {
+    .how-it-all-started {
+        padding: 87px 0px 100px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .block-title {
+        font-size: 44px;
+    }
+
+    .box-title {
+        font-size: 40px;
+    }
+
+    .home-testimonial .swiper-button-next {
+        right: 0;
+    }
+
+    .home-testimonial .swiper-button-prev {
+        left: 0;
+    }
+
+    .page-title {
+      height: auto;
+    }
+    .page-title .h1 {
+        font-size: 70px;
+    }
+    .home-testimonial .swiper-slide{
+        padding: 0 50px;
+    }
+    .wedding-solution .description h2{
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 999px) {
+    .pad_tb_100{
+        padding: 50px 0;
+    }
+    .home-banner .banner-description .banner-title {
+        font-size: 40px;
+    }
+
+    .videos .box-title {
+        font-size: 36px;
+    }
+
+    .wedding-solution .block-title {
+        font-size: 36px;
+    }
+
+    .meet-mindy .block-title {
+        font-size: 30px;
+    }
+
+    .meet-mindy .description {
+        padding-left: 0;
+    }
+
+    .footer-link li {
+        padding: 5px 16px;
+    }
+
+    .page-title .h1 {
+        font-size: 60px;
+    }
+    .home-testimonial{
+        padding-bottom: 150px;
+    }
+    .widget-wrapper{
+        padding-left: 0;
+    }
+    .services-list .thumbnail{
+        max-width: 700px;
+        width: 100%;
+        margin: 0 auto 20px;
+    }
+    .modal#subscribe .modal-dialog{
+        max-width: 700px;
+        width: 95%;
+    }
+    .modal#subscribe .modal-body h2{
+        font-size: 30px;
+    }
+    .lesson-wrap{
+        max-height: 600px;
+        height: 100%;
+    }
+    .services-video-title{
+        font-size: 26px;
+    }
+    .services-video-sub-title{
+        font-size: 20px;
+    }
+    .lesson-video-iframe{
+        height: 400px;
+    }
+    .services-list .row:nth-child(even) .col-lg-6:first-child{
+        order: inherit;
+    }
+    .wedding-solution .row{
+        margin-bottom: 15px;
+    }
+    .wedding-solution .description h2{
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .wedding-solution .row:nth-child(even) [class*="col-"]:first-child,
+    .wedding-solution .row:nth-child(even) [class^="col-"]:first-child{
+        order: inherit;
+    }
+    .wedding-solution .row:last-child .thumbnail{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 991px) {
+    .block-title {
+        font-size: 36px;
+    }
+
+    .box-title {
+        font-size: 32px;
+    }
+
+    .header-container {
+        height: 90px;
+    }
+
+    .logo img {
+        width: 120px;
+    }
+}
+
+@media (max-width: 767px) {
+    body{
+        padding-bottom: 50px;
+    }
+    .block-title {
+        font-size: 32px;
+    }
+
+    .box-title {
+        font-size: 28px;
+    }
+
+    .pad_tb_100 {
+        padding: 30px 0;
+    }
+
+    .header-container {
+        height: 80px;
+    }
+    .header-profile{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #434E28;
+        padding: 10px 15px;
+        justify-content: space-between;
+        border-top: 1px solid #5b6740;
+        z-index: 1020;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    .header-profile.invisibled{
+        opacity: 0;
+        visibility: hidden;
+    }
+    .header-profile .dashboard-link{
+        margin-right: 0;
+        color: #fff;
+    }
+    .header-profile .login-link{
+        margin-right: 0;
+        color: #fff;
+    }
+    .header-profile .profile-drodpown{
+        margin-right: 0px;
+    }
+    .header-profile .dropdown>a{
+        color: #fff;
+    }
+    .logo {
+        width: 120px;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+    .home-banner .banner-text {
+        position: relative;
+        background-color: #8A8D78;
+        padding: 30px 0px;
+    }
+
+    .wedding-solution .swiper-container {
+        padding: 0 0 15px;
+    }
+
+    .wedding-solution:after {
+        height: 100%;
+    }
+
+    .wedding-solution {
+        margin-bottom: 30px;
+        padding: 30px 0px 0;
+    }
+    .home-testimonial{
+        padding-bottom: 120px;
+    }
+    .home-testimonial .thumb {
+        margin: 0 auto 20px;
+    }
+
+    .home-testimonial .description {
+        width: 100%;
+    }
+
+    .home-testimonial .block-title {
+        font-size: 22px;
+    }
+
+    .videos .box-title {
+        font-size: 22px;
+    }
+
+    .wedding-solution .block-title {
+        font-size: 22px;
+    }
+
+    .meet-mindy .block-title {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .home-testimonial .swiper-button-next {
+        display: none;
+    }
+
+    .home-testimonial .swiper-button-prev {
+        display: none;
+    }
+
+    .subscribe .text {
+        font-size: 22px;
+    }
+
+    .meet-mindy .share {
+        display: block !important;
+    }
+
+    .home-testimonial .description {
+        padding-left: 0;
+    }
+
+    footer {
+        padding-top: 30px;
+    }
+    .page-title .h1 {
+        font-size: 40px;
+    }
+
+    .wedding-solution .overlay .text{
+        width: calc(90%);
+    }
+    .wedding-solution .overlay .text .box-title{
+        font-size: 22px;
+    }
+    .footer-logo{
+        margin-bottom: 30px;
+    }
+    .footer-link{
+         margin-bottom: 30px;
+    }
+    .footer-link ul{
+        margin: 0;
+    }
+    footer .social-media{
+        margin-bottom: 20px;
+    }
+    .home-testimonial .slide{
+        text-align: center;
+    }
+    .how-it-all-started .block-title{
+        font-size: 22px;
+    }
+    .home-testimonial .description:before{
+        left: 0;
+    }
+    .home-testimonial .swiper-slide{
+        padding: 0;
+    }
+    .mainmenu ul li a{
+        font-size: 20px;
+    }
+    .testimonial-list{
+        padding: 0;
+    }
+    .testimonial-list li{
+        display: block;
+        padding: 30px 0px;
+    }
+    .testimonial-list .thumb{
+        margin: 0 auto 30px;
+    }
+    .testimonial-list .description{
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+    }
+    .testimonial-list .description:before{
+        left: 0;
+    }
+    .testimonial-list li:nth-child(even) .description{
+        padding: 40px 0 0 0;
+    }
+    ul.pagination{
+        padding-bottom: 30px;
+    }
+    .subscribe-wrap{
+        padding: 30px;
+        text-align: center;
+    }
+    .contact-us .block-title{
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    .map-wrap .address{
+        padding: 15px;
+    }
+    .map-wrap .address h2{
+        font-size: 22px;
+    }
+    .blog-list{
+        padding-top: 30px;
+    }
+    .blog-detail{
+        padding-top: 30px;
+    }
+    .post-latest{
+        margin-bottom: 30px;
+    }
+    .comments-area .comment-list .vcard{
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .comments-area .comment-list .comment-description{
+        width: 100%;
+    }
+    .comments-area .comment-list .children li{
+        padding-left: 0;
+        padding-top: 30px;
+        margin-top: 30px;
+    }
+    .comments-area .comment-list li{
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+    }
+    .comment-respond .comment-title h5{
+        font-size: 30px;
+    }
+    .comments-area .comments-title{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .comment-respond{
+        margin-bottom: 30px;
+    }
+    .comment-form p{
+        width: 100%;
+    }
+    .services-list .row{
+        margin-bottom: 30px;
+    }
+    .services-list .description .block-title{
+        font-size: 26px;
+    }
+    .videos .box-title{
+        padding-left: 0;
+    }
+    .videos .btn-buy{
+        margin-left: 0;
+    }
+    .services-list .row:nth-child(even) .col-lg-6:first-child{
+        order: inherit;
+    }
+    .packages-list .card-description{
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 15px;
+    }
+    .modal#subscribe .close{
+        right: -10px;
+    }
+    .modal#subscribe .modal-body h2{
+        font-size: 16px;
+        letter-spacing: 0.1em;
+        margin-bottom: 15px;
+    }
+    .modal#subscribe .modal-body h4{
+        margin-bottom: 20px;
+    }
+    .modal#subscribe .modal-content{
+        padding: 15px;
+    }
+    .modal#subscribe .ns-form{
+        height: auto;
+    }
+    .modal#subscribe .ns-container{
+        padding: 15px;
+    }
+    .modal#subscribe .ns-form .ns-group{
+        width: 100%;
+        padding-bottom: 0;
+    }
+    .modal#subscribe .ns-form .ns-action{
+        width: 100%;
+    }
+    .services-video-title{
+        font-size: 24px;
+        letter-spacing: 0.1em;
+        margin-bottom: 15px;
+    }
+    .services-video-sub-title{
+        font-size: 20px;
+    }
+    .lesson-video-iframe{
+        height: 300px;
+    }
+    .services-detail .pad_tb_100{
+        padding: 30px 0px;
+    }
+    .services-glossary .left{
+        width: 100%;
+    }
+    .services-glossary .right{
+        width: 100%;
+        padding-left: 0;
+    }
+    .lesson-wrap{
+        height: 300px;
+    }
+    .woocommerce-checkout form.checkout_coupon .form-row{
+        width: 300px;
+        margin: 0 auto;
+    }
+    .woocommerce-checkout form.checkout_coupon > p{
+        text-align: center;
+    }
+    .woocommerce-checkout form.checkout_coupon .input-text{
+        width: 100% !important;
+        margin-right: 0 !important;
+    }
+    .woocommerce-checkout form.checkout_coupon .button{
+        width: 100%;
+    }
+    .woocommerce-checkout .col2-set .col-1,
+    .woocommerce-checkout .col2-set .col-2{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+    .woocommerce-billing-fields .form-row{
+        width: 100%;
+        padding-right: 0 !important;
+    }
+    .woocommerce-checkout .col2-set{
+        margin: 0 0 50px;
+    }
+    .woocommerce-billing-fields h3{
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    .woocommerce-billing-fields .form-row.form-row-first, .woocommerce-billing-fields .form-row.form-row-last{
+        width: 100%;
+    }
+    .woocommerce-account-fields{
+        margin-bottom: 30px;
+        padding-right: 0;
+    }
+    .woocommerce-checkout .pad_tb_100{
+        padding-bottom: 30px;
+    }
+    .woocommerce ul.order_details li{
+        padding: 0 0 15px;
+        margin: 0 0 15px;
+        width: 100%;
+        border-right: 0;
+        border-bottom: 1px dashed #d3ced2;
+    }
+    .mainmenu ul{
+        padding: 70px 0 20px;
+    }
+    .profile-setting .btn-save{
+        margin-left: 0;
+    }
+    .profile-setting .btn-password{
+        margin-bottom: 15px;
+    }
+    .login-screen .wpcf7-form{
+        padding: 18px;
+    }
+    .thankyou h2{
+        font-size: 24px;
+    }
+    .modal#changepass .wpcf7-form{
+        padding: 20px;
+    }
+    .modal#changepass .btn-change-password{
+        margin-bottom: 15px;
+    }
+    .profile-setting .btn-change-password{
+        margin-top: 15px;
+    }
+    .wedding-solution .description h2{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .wedding-solution .description h3{
+        margin-bottom: 10px;
+        font-size: 18px;
+        margin-left: -30px;
+    }
+    .wedding-solution .description .text{
+        padding-left: 30px;
+    }
+    .wedding-solution .description h3 strong{
+        margin-right: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .block-title {
+        font-size: 30px;
+    }
+
+    .box-title {
+        font-size: 22px;
+    }
+    .subscribe .row{
+        justify-content: center !important;
+        -webkit-box-pack: center !important;
+       -moz-box-pack: center !important;
+       -ms-flex-pack: center !important;
+    }
+    .subscribe .text{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .subscribe .action{
+        width: 100%;
+    }
+    .wedding-solution .overlay .bullet{
+        margin-bottom: 10px;
+    }
+    .wedding-solution .overlay .text .box-title{
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .wedding-solution .overlay .text p{
+        font-size: 14px;
+    }
+}
+
+@media (max-height: 600px) {
+    .mainmenu .container{
+        overflow: auto;
+    }
+    .mainmenu ul{
+        padding: 120px 0 30px;
+    }
+}
